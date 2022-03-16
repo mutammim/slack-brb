@@ -1,0 +1,26 @@
+{
+	"name": "slack-brb",
+	"description": "Very simple Slack app that can set your status to \"be right back\" for the given number of minutes.",
+	"version": "1.0.0",
+	"main": "app.js",
+	"dependencies": {
+		"@slack/bolt": "^3.10.0"
+	},
+	"devDependencies": {
+		"prettier": "^2.6.0"
+	},
+	"scripts": {
+		"start": "node app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mutammim/slack-brb.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/mutammim/slack-brb/issues"
+	},
+	"homepage": "https://github.com/mutammim/slack-brb#readme"
+}
